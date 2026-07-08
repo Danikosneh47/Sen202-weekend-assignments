@@ -1,0 +1,13 @@
+The security incident mapping(Sim) system is a web-based portal designed to bridge the communication gap between off-campus/on campus residents and security forces .Its crowdsources real -time security data to generate heatmaps and anonmyoty reports deterring criminals and keeping stakeholders informed.
+
+ Functional Requirements (FRs)
+FR-1 (Anonymous Incident Reporting): Users (Students, Staff, Landlords) must be able to log a crime report without authenticating or exposing personal identities.
+FR-2 (Crime Categorization): The system must categorize reports into specific types (Theft, Stabbing, Rape, Cultism, Suspected Activity).
+FR-3 (Location Mapping): Users must select or input specific campus/villa locations (e.g., Permanent Site, Villa Gate).
+FR-4 (Admin Dashboard): University Security Personnel and Admin must view an aggregated feed of reports to update deployment status (e.g., "Investigating", "Resolved").
+
+
+3. Non-Functional Requirements (NFRs)
+NFR-1 (Security & Privacy): Absolute zero logging of IP addresses or user-agent details for anonymous reporters to prevent retaliation.
+NFR-2 (Performance/Speed): Incident submission must process in less than 2 seconds over standard 3G/4G networks.
+NFR-3 (Usability): Highly intuitive, mobile-first single-page interface with minimal text entry requirements for fast reporting during emergencies.
